@@ -51,7 +51,17 @@ const repos = {
 //  gitHubUsername: "MarineNewt",
 //  reposLength: 6,
 //  specificRepos: [],
-  list: [{
+  list: [
+    {
+      category: "App",
+      title: "Intro Me ",
+      url: "https://www.introme.me/",
+      url2: "https://www.introme.me/intro/newt",
+      //repo: "https://github.com/MarineNewt/",
+      notes: "IntroMe is a Link-in-Bio SaaS tool enpowering users to create their own highly personalized introduction webpages for a monthly subscription. Using easy to follow components built step-by-step users are able to create uniquely customizable webpages on their own without code.",
+      thumbnail:require("../assets/img/PL - Introme.png"), 
+     },
+    {
     category: "App",
     title: "Seattle Adventures",
     url: "https://initial-mern.vercel.app/",
@@ -93,14 +103,6 @@ const repos = {
    },
    {
     category: "App",
-    title: "Twitter Automation",
-    url: "https://github.com/MarineNewt/TwitterAutomation",
-    repo: "https://github.com/MarineNewt/TwitterAutomation",
-    notes: "Automated twitter bot posting randomized emoji art daily. My Twitter bot code can be modified to pull data from any available APIs to aggregate data and post real time updated statistics to twitter.",
-    thumbnail:require("../assets/img/twitterauto.jpg"), 
-   },
-   {
-    category: "App",
     title: "On Chain Canvas",
     url: "https://canvasonchain.com/",
     repo: "https://github.com/MarineNewt/CanvasNFT",
@@ -114,7 +116,18 @@ const repos = {
     repo: "https://github.com/MarineNewt/Restaurant-LandingPage-UDB",
     notes: "Landing page for Asian fusion restaurant Udupbop. Provides an easy to navigate menu and all nccesary business information presented in a modern aesthetic page directing attention towards the deliciously artistic cusine.",
     thumbnail:require("../assets/img/reslandingpage.png"), 
+   }
+
+   /*
+   {
+    category: "App",
+    title: "Twitter Automation",
+    url: "https://github.com/MarineNewt/TwitterAutomation",
+    repo: "https://github.com/MarineNewt/TwitterAutomation",
+    notes: "Automated twitter bot posting randomized emoji art daily. My Twitter bot code can be modified to pull data from any available APIs to aggregate data and post real time updated statistics to twitter.",
+    thumbnail:require("../assets/img/twitterauto.jpg"), 
    },
+   */
 
   ]
 };

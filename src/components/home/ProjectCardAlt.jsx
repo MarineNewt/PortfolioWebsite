@@ -6,10 +6,11 @@ const ProjectCardAlt = ({ value, imgHeight }) => {
   const {
     title,
     url,
+    url2,
+    repo,
     notes,
     videoUrl,
-    thumbnail, 
-    repo,
+    thumbnail,
   } = value;
 
   return (
@@ -20,14 +21,14 @@ const ProjectCardAlt = ({ value, imgHeight }) => {
           <div height={imgHeight}><img className="card-img-top" height="auto" width='auto' src={thumbnail} alt={title}></img></div>
           <hr></hr>
           <Card.Text>{notes}</Card.Text>
-          <CardButtons video_url={videoUrl} link={url} repo={repo} />
+          <CardButtons video_url={videoUrl} link={url} link2={url2} repo={repo} />
         </Card.Body>
       </Card>
     </Col>
   );
 };
 
-const CardButtons = ({ video_url, link, repo }) => {
+const CardButtons = ({ video_url, link, link2, repo }) => {
   return (
     <>
       {video_url &&
@@ -42,6 +43,15 @@ const CardButtons = ({ video_url, link, repo }) => {
       {link &&
         <a
             href={link}
+            target=" _blank"
+            className="btn btn-outline-secondary"
+        >
+            <i className="fas fa-link " /> 
+          </a>
+      }
+      {link2 &&
+        <a
+            href={link2}
             target=" _blank"
             className="btn btn-outline-secondary"
         >
