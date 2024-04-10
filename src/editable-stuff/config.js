@@ -61,6 +61,14 @@ const repos = {
       notes: "IntroMe is a Link-in-Bio SaaS tool enpowering users to create their own highly personalized introduction webpages for a monthly subscription. Using easy to follow components built step-by-step users are able to create uniquely customizable webpages on their own without code.",
       thumbnail:require("../assets/img/PL - Introme.png"), 
      },
+     {
+      category: "App",
+      title: "Era Web Development",
+      url: "https://web-business-peach.vercel.app/",
+      repo: "https://github.com/MarineNewt/WebBusiness",
+      notes: "Era website development is my freelancing business offering comprehensive website design and development services for small businesses looking to jumpstart their online presence. The website is connected with AWS SES to gather essential client data and send a notification when a client is ready to book.",
+      thumbnail:require("../assets/img/PL - WebsiteDev.png"), 
+     },
     {
     category: "App",
     title: "Seattle Adventures",
@@ -100,14 +108,6 @@ const repos = {
     repo: "https://github.com/MarineNewt/EdenNFT",
     notes: "Eden's Flowers is a dynamic NFT collection on Ethereum showcasing the Art within NFT smart contracts through displaying how the medium as a whole can be utilized. The collection built upon an already unique proliferative token has an image switching mechanism and a contract time limit, challenging the importantance of common project trends of rarity structures and perpetuity on the blockchian.",
     thumbnail:require("../assets/img/edenspage.png"), 
-   },
-   {
-    category: "App",
-    title: "On Chain Canvas",
-    url: "https://canvasonchain.com/",
-    repo: "https://github.com/MarineNewt/CanvasNFT",
-    notes: "On Chain Canvas is an dynamic & interactive on-chain NFT. The token featuring a SVG canvas can be altered by holders one pixel at a time, once every 600 blocks. The evolving piece shows the capabilities of NFTs to be developed by communities over time and are not limited to static instances of art.",
-    thumbnail:require("../assets/img/canvasonchain.png"), 
    },
    {
     category: "App",
